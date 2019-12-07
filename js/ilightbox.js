@@ -87,7 +87,7 @@
 				nextLock: false,
 				prevLock: false,
 				hashLock: false,
-				isMobile: false,
+				isMobile: true,
 				mobileMaxWidth: 980,
 				isInFullScreen: false,
 				isSwipe: false,
