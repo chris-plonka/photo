@@ -1,0 +1,34 @@
+- icon: "ion-compass"
+  img:  "/img/wallpapers/Polski_Grzebien.bmp"
+  title: "Polski Grzebień"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+ 
+- icon: "ion-image"
+  img:  "/img/wallpapers/Mountain.bmp"
+  title: "Jezioro"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  
+- icon: "icon ion-coffee"
+  img:  "/img/wallpapers/Mauritius.jpg"
+  title: "Mauritius"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+
+- icon: "ion-compass"
+  img:  "/img/wallpapers/Magurka.jpg"
+  title: "Magurka"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+ 
+- icon: "ion-image"
+  img:  "/img/wallpapers/Balony.jpg"
+  title: "Balony"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  
+- icon: "ion-image"
+  img:  "/img/wallpapers/Turtle.jpg"
+  title: "Żółw"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"
+  
+- icon: "ion-image"
+  img:  "/img/wallpapers/Skrzyczne.jpg"
+  title: "Skrzyczne"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut"

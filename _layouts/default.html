@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+  {% include analytics.html %}
+
+  <div class="off-canvas-container">
+    {% include header.html %}
+
+    {{ content }}
+
+    {% include footer.html %}
+  </div>
+
+  
+  <a href="img/photo/image2.jpg" rel="ilightbox[gallery1]"></a>
+  <a href="img/photo/image3.jpg" rel="ilightbox[gallery1]"></a>
+  <a href="img/photo/image4.jpg" rel="ilightbox[gallery1]"></a>
+  
+  <a href="img/photo/image1.jpg" rel="ilightbox[gallery2]"></a>
+  
+  
+  
+  
+  <script src="{{ '/js/jquery-2.1.4.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/evil-icons.min.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/jquery.fitvids.js' | prepend: site.baseurl }}"></script>
+  
+  <script src="{{ '/js/vendor.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/scripts.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/ilightbox.js' | prepend: site.baseurl }}"></script>
+  <script src="{{ '/js/script.js' | prepend: site.baseurl }}"></script>
+</body>
+
+</html>

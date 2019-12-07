@@ -1,0 +1,64 @@
+<header class="header">
+<!-- <div class="strip"></div> -->
+			<div class="wrap">
+				<nav class="header-nav">
+					
+						<div class="header-search">
+					
+					
+					
+			<a href="#" class="header-search-button jQ_headerSearchButton"><i class="fa fa-search"></i></a>		
+			
+			{% if page.is_post %}	
+			<form action="../../../../search/" method="get" class="header-search-form">
+		
+			{% else if page.is_page %}	
+			<form action="../../search/" method="get" class="header-search-form">
+			{% endif %}
+			<form action="../search/" method="get" class="header-search-form">
+						<input type="text" id="search_box" name="query" class="header-search-form-input jQ_headerSearchInput" value="" placeholder="Enter keyword..." autocomplete="off">
+					<button type="submit" class="header-search-form-button" value="search"><i class="fa fa-search"></i></button>	
+			<!--		<input type="submit" value="search"> -->
+			</form>					
+		</div>
+					
+
+					<div class="header-menu-wrap">
+						<a href="http://m.krzysztofplonka.pl/#" class="header-menu-button jQ_headerMenuButton"><i class="fa fa-bars"></i></a>
+						<ul class="header-menu">
+						<li><a href="{{ site.url | prepend: site.baseurl }}">Home</a></li>
+							{% for page in site.pages %}
+							{% unless page.name == '404.md' %}
+								{% if page.title %}
+								<li>
+									<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+								</li>
+							{% endif %}
+						{% endunless %}
+					{% endfor %}
+							
+						</ul>
+					</div>
+				</nav>
+
+				
+			<!--		<a href="{{ site.url | prepend: site.baseurl }}" class="header-avatar _circle" style="background-image: url(/images/avatar.png)"></a> -->
+				
+
+				
+					<h1 class="header-title">
+						<a href="{{ site.url | prepend: site.baseurl }}"> </a>
+					</h1>
+				
+
+				
+					
+						<div class="header-sentence">
+							I’m a Portrait, Fashion and Lifestyle Photographer
+living in New York
+						</div>
+					
+				
+			</div>
+		</header>
+	
