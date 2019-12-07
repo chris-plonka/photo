@@ -474,6 +474,13 @@
 /* Style mobile devices */
 
 .isMobile {
+
+a.my-class {
+    pointer-events: none;
+}
+
+
+
   .ilightbox-button, .ilightbox-thumbnails {
     display: none !important;
   }

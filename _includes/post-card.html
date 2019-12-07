@@ -2,7 +2,7 @@
 
   <div class="post-card {% if post.featured %} post-card--featured {% endif %}">
 
-    <a href="{{ post.image }}" rel="ilightbox[{{ post.gallery }}]">
+    <a href="{{ post.image }}" class="my-class" rel="ilightbox[{{ post.gallery }}]">
 	{% if post.image %}
       <div class="post-card__image CoverImage FlexEmbed FlexEmbed--4by3" style="background-image: url({{ post.image | prepend: site.baseurl }})">
 	  
